@@ -1,0 +1,27 @@
+title: 76Jin Blog
+email: ranian129@gmail.com
+description: Dev blog by 76Jin.
+baseurl: ''
+url: 'https://76jin.github.io'
+#github_username: 76jin
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+timezone: Asia/Seoul
+footer-links-active:
+  rss: false
+  facebook: false
+  email: false
+  twitter: false
+  google-plus: false
+  github: true
+  reddit: false
+  linkedin: false
+  xing: false
+  stackoverflow: false
+  snapchat: false
+  instagram: false
+  youtube: false
+  spotify: false
+  telephone: false
