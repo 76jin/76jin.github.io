@@ -59,6 +59,24 @@ vi ~/.zshrc
 plugins = ( zsh-syntax-highlighting zsh-autosuggestions autojump )
 ```
 
+* 댓글 플러그인 설치
+1. 가입: https://disqus.com
+2. Settings > Add Disqus to site > new site ...
+3. select Platform 에 Jekyll 선택.
+4. Configure Disqus > Website URL 작성 > Complete Setup
+5. post 파일마다 메타필드 추가 (vi _post/some_post.md)
+```bash
+comments: true
+# 또는 vi _config.yml 수정 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
+```
+
 ### 참고 블로그
 * [멋진 터미널 만들기](https://beomi.github.io/2017/07/07/Beautify-ZSH/)
 * [oh-my-zsh 테마 이용해 쉘 바꾸고, 유용한 플러그인 사용하기](http://heetop.blogspot.com/2017/10/oh-my-zsh_12.html)
