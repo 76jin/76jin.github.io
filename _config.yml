@@ -9,6 +9,8 @@ theme: minima
 plugins:
   - jekyll-feed
 timezone: Asia/Seoul
+disqus:
+  shortname: 76jin-github-io
 footer-links-active:
   rss: false
   facebook: false

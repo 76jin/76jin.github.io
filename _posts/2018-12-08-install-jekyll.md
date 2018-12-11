@@ -1,6 +1,7 @@
 ---
 title: Jekyll 설치
 layout: post
+comments: true
 ---
 
 ### Jelly 설치 히스토리
@@ -62,3 +63,4 @@ plugins = ( zsh-syntax-highlighting zsh-autosuggestions autojump )
 * [멋진 터미널 만들기](https://beomi.github.io/2017/07/07/Beautify-ZSH/)
 * [oh-my-zsh 테마 이용해 쉘 바꾸고, 유용한 플러그인 사용하기](http://heetop.blogspot.com/2017/10/oh-my-zsh_12.html)
 * [Jazz Up Your “ZSH” Terminal In Seven Steps — A Visual Guide](https://medium.freecodecamp.org/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38)
+* [Jekyll and LightSail SSL](https://andygrove.io/2018/05/hosting-jekyll-lightsail-lets-encrypt-ssl/)
