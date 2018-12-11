@@ -11,6 +11,13 @@ plugins:
 timezone: Asia/Seoul
 disqus:
   shortname: 76jin-github-io
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
 footer-links-active:
   rss: false
   facebook: false
