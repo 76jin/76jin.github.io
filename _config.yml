@@ -8,6 +8,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 timezone: Asia/Seoul
 disqus:
   shortname: 76jin-github-io
